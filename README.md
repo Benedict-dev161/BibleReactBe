@@ -64,3 +64,15 @@ Ensure **"type": "module"** is present in your package.json and remove any dupli
 ```
 node server.js
 ```
+
+## ⚠️ Networking & Troubleshooting
+
+Android Emulator: Access the API via http://10.0.2.2:3000/api/daily-devotional.
+
+Physical Device: Use your computer's local IPv4 address (e.g., http://192.168.1.XX:3000) and ensure both devices are on the same Wi-Fi network.
+
+## 🛑 Engineering Risks
+
+This project relies on Web Scraping. If the source website changes its CSS classes or HTML structure, the parser in server.js will break and require an update to the selectors.
+
+Disclaimer: Content is sourced from dailyscripture.net for educational and non-commercial use only.
