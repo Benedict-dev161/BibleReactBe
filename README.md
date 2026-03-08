@@ -25,7 +25,7 @@ A lightweight **Node.js REST API** designed to serve as a proxy scraper for the 
 
 ## 📖 API Documentation
 
-### 1. Get Daily Devotional
+### Get Daily Devotional
 Fetch the latest devotional content for the current date.
 
 * **Endpoint:** `/api/daily-devotional`
@@ -44,3 +44,23 @@ Fetch the latest devotional content for the current date.
 }
 ```
 
+## 🚀 Installation & Local Setup
+
+### 1. Clone the Repository:
+```
+git clone [https://github.com/Benedict-dev161/BibleReactBe.git](https://github.com/Benedict-dev161/BibleReactBe.git)
+cd BibleReactBe
+```
+
+### 2. Install Dependencies:
+```
+npm install
+```
+
+### 3. Verify Configuration:
+Ensure **"type": "module"** is present in your package.json and remove any duplicate **"type"** keys to support ES Modules.
+
+### 4. Launch the Server:
+```
+node server.js
+```
