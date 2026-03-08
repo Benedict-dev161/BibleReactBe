@@ -75,4 +75,4 @@ Physical Device: Use your computer's local IPv4 address (e.g., http://192.168.1.
 
 This project relies on Web Scraping. If the source website changes its CSS classes or HTML structure, the parser in server.js will break and require an update to the selectors.
 
-Disclaimer: Content is sourced from dailyscripture.net for educational and non-commercial use only.
+Disclaimer: Content is sourced from [dailyscripture.net](https://www.dailyscripture.net/daily-meditation/) for educational and non-commercial use only.
